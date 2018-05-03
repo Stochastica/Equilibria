@@ -1,24 +1,18 @@
-# README
+# Equilibria Centralised Flow Management System
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Coming soon...
 
-Things you may want to cover:
+## Dependencies and Deployment
 
-* Ruby version
+- Ruby Version: 2.5.1
 
-* System dependencies
+To install, 
+1. `$ bundle install --without production`
+2. `$ rails db:migrate`
+3. If testing passes at this stage, deployment is ready.
 
-* Configuration
+## Testing
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails test
+```
