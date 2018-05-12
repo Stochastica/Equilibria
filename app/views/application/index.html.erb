@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Equilibria Index</title>
+
+		<%= csrf_meta_tags %>
+
+		<%= stylesheet_link_tag 'application',
+		      media: 'all',
+		      'data-turbolinks-track': 'reload'
+		 %>
+		<%= javascript_include_tag 'application',
+		      'data-turbolinks-track': 'reload'
+	   %>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- HTML shim -->
+		<%= render 'layouts/shim' %>
+	</head>
+	<body>
+		<%= image_tag "logo.svg", class: "index-center", size: 400 %>
+		<div class="container center">
+			<h1 id="index-title">Equilibria</h1>
+			<p>The flow management system</p>
+			<%= link_to "Home", root_path %>
+		</div>
+	</body>
+</html>

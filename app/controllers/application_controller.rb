@@ -3,4 +3,8 @@ class ApplicationController < ActionController::Base
 
   def home
   end
+
+  def index
+  	render 'index', :layout => false
+  end
 end

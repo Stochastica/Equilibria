@@ -1,6 +1,9 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
-	<div class="container">
-		<%= link_to "Equilibria", root_path, id: "logo" %>
+	<div class="container-fluid">
+		<div id="logo">
+			<%= image_tag "logo.svg", size: 33 %>
+			<%= link_to "Equilibria", root_path %>
+		</div>
 		<nav>
 			<ul class="nav navbar-nav navbar-right">
 				<li><%= link_to "Help", '#'%></li>
